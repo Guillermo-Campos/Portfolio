@@ -1,0 +1,87 @@
+.container{
+    /* border: 2px solid blue; */
+    height: 90vh;
+    margin-top: 5vh;
+    background: linear-gradient(0deg, #303440, #b7bac3);
+}
+
+.portada-container{
+    border: 2px solid blue;
+    width: 60%;
+    height: 25vh;
+    margin: auto;
+}
+
+.portfolio-content{
+    border: 2px solid orange;
+    width: 98%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portfolio-resume{
+    width: 30%;
+    height: 45vh;
+    margin: auto;
+}
+
+.card{
+    background: none;
+}
+
+.portfolio-img{
+    border: 2px solid green;
+    width: 40%;
+    height: 45vh;
+    margin: auto;
+}
+
+.portfolio-details{
+    border: 2px solid purple;
+    width: 20%;
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.experience{
+    border: 2px solid brown;
+    width: 80%;
+    height: 12vh;
+    margin: auto;
+}
+
+.experience div div {
+    height: 12vh;
+    text-align: center;
+    }
+
+.experience div div h3{
+font-size: 1.5rem;
+}
+
+.experience div div h5{
+    font-size: 0.8rem;
+    }
+
+.tecnology{
+    border: 2px solid red;
+    width: 80%;
+    height: 12vh;
+    margin: auto;
+}
+
+.proyect{
+    border: 2px solid lightblue;
+    width: 80%;
+    height: 12vh;
+    margin: auto;
+}
+
+.curriculum button{
+    margin-left: 80%;
+}
